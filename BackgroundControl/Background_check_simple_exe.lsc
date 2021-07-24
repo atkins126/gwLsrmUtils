@@ -1,0 +1,16 @@
+; очищаем разметку
+clear
+; поиск пиков
+searchandfit
+; сохранение в файл результатов поисков
+output(C:\Lsrm\BackgroundControl\Result2.txt)
+; открытие стандартного фонового спектра
+open(c:\Lsrm\Work\UVT_Gem15P4\Spe\Background\Background.spe)
+; поиск пиков в текущем спектров
+searchandfit
+; сохранение рез-в поиска в файл
+output(C:\Lsrm\BackgroundControl\Result1.txt)
+; запуск программы контроля фона
+execute('c:\Lsrm\BackgroundControl\EveryDayBackgroundControl.exe','c:\Lsrm\BackgroundControl\Result1.txt c:\Lsrm\BackgroundControl\Result2.txt 0.1','c:\Lsrm\BackgroundControl\',0)
+; закрытие текущего окна
+close
