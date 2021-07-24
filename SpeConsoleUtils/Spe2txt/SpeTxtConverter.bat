@@ -1,0 +1,1 @@
+for %%i in (*.csv) do SpeTxtConv.exe "%%i" spe

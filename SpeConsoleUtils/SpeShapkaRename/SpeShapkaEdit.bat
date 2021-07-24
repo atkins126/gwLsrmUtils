@@ -1,0 +1,1 @@
+for %%i in (*.spe) do SpmHeadEdit.exe "%%i" GEOMETRY point-0cm

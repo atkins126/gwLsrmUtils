@@ -1,0 +1,1 @@
+for %%i in (*.spm) do SpmHeadEdit.exe %%i SAMPLEVOLUME 30.0;0.3
