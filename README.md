@@ -22,3 +22,10 @@
 
 - jedi lib (https://www.delphi-jedi.org/index.html)
 - toolbar 2000 (https://jrsoftware.org/tb2k.php)
+
+
+
+**Бинарные сборки**
+
+Собранные утилиты находятся на `ftp://ftp.lsrm.ru/products/gwUtils`
+
