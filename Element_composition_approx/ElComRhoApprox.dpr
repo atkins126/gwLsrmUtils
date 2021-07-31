@@ -1,4 +1,4 @@
-program Lsrmz_Extractor;
+program ElComRhoApprox;
 
 uses
   Forms,

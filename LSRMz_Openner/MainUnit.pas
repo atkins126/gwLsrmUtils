@@ -4,9 +4,8 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, ComCtrls,
-  JvComponentBase, JvZlibMultiple, StdCtrls, JvBaseDlg, JvSelectDirectory,
-  JvBrowseFolder;
+  Dialogs, ComCtrls, StdCtrls,
+  JvComponentBase, JvZlibMultiple, JvBaseDlg, JvSelectDirectory, JvBrowseFolder;
 
 type
   TfrmMain = class(TForm)
